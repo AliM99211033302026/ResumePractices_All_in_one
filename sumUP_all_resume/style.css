@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ft-family: "Nunito", sans-serif;
+  --clr-primary: #808080;
+  --clr-accent: #e1d9d1;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 0 auto;
+  height: 100vh;
+  font-family: var(--ft-family);
+}
+.col-1 {
+  width: 0 auto;
+  height: 60%;
+  background-image: url("https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/accommodation/north-africa-and-middle-east/jordan/bespoke-hideaways-1.jpg?la=en&amp;hash=C690E7D8C7FAB2B85BBA3139E8300AC5C82D78DD ");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  width: 0 auto;
+  height: 3rem;
+  padding: 2rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--clr-accent);
+  transition: color 0.5s ease-in-out;
+}
+a:hover {
+  color: var(--clr-primary);
+}
+.landing h1 {
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--clr-accent);
+}
+.landing h4 {
+  text-align: center;
+  color: var(--clr-accent);
+}
+span {
+  color: var(--clr-primary);
+}
+.col-2 {
+  display: flex;
+  padding: 10rem;
+  background-color: rgb(43, 43, 43);
+  color: var(--clr-accent);
+}
+.details {
+  display: flex;
+  gap: 3rem;
+}
+.about-me {
+  padding: 2rem;
+}
+.profile-image {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  background-image: url("https://i.ibb.co/ZdwWfK5/1635237158909.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  display: flex;
+  justify-items: center;
+}
